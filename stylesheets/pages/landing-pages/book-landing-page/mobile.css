@@ -1,0 +1,119 @@
+@media screen and (max-width: 620px) {
+  .comments {
+    background-image: none !important;
+  }
+  .comments-slider-wrapper {
+    max-width: 100%;
+    margin: 50px 0;
+    padding: 0 15px;
+  }
+  .comments-slider {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .comments-btn {
+    display: none;
+  }
+  .commetns-wave {
+    display: none;
+  }
+  .callback-book-mobile{
+    margin: 45px auto 0;
+    width: calc(100% - 30px);
+    box-shadow: 0px 0px 40px 10px rgba(222, 233, 255, 1);
+  }
+}
+
+@media screen and (max-width: 586px) {
+  body {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  section h2 {
+    font-size: 27px;
+    line-height: 32px;
+  }
+  .btn {
+    font-size: 12px;
+    width: 160px;
+    height: 42px;
+  }
+  .body-bg.tablet {
+    display: none;
+  }
+  .body-bg.mobile {
+    display: block;
+    height: 455px;
+  }
+  .banner__title {
+    font-size: 27px;
+    line-height: 32px;
+  }
+  .banner__title span {
+    font-size: 72px;
+    line-height: 87px;
+  }
+  .banner__descr {
+    font-size: 16px;
+    line-height: 31px;
+  }
+  .banner__btns {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .content-wrapper {
+    gap: 10px;
+  }
+  .content-item__title {
+    background-size: 20px;
+    background-position: right 24px center;
+  }
+  .content-item__title h3,
+  .content-item__list {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .content-item__title h3 {
+    max-width: 100%;
+    padding-right: 60px;
+  }
+  .content-item__list {
+    margin-top: 10px;
+  }
+  .close-content-list {
+    width: 20px;
+    top: 24px;
+    right: 24px;
+  }
+  .compar-items {
+    gap: 78px;
+  }
+  .compar-item {
+    flex: 0 0 100%;
+  }
+  .form-btn {
+    font-size: 15px;
+  }
+  .callback-wrapper .right br {
+    display: none;
+  }
+  .footer-row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about__item {
+    align-items: flex-start;
+  }
+  .about__item img {
+    margin-top: 6px;
+  }
+  .comment-slide {
+    padding: 24px 8px;
+  }
+  .callback-wrapper .left .arrow {
+    width: 150px;
+    left: -55%;
+  }
+}

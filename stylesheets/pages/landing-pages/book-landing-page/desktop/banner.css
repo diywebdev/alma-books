@@ -1,0 +1,54 @@
+.banner {
+  padding: 34px 0 0;
+}
+.banner__wrap {
+  display: flex;
+  align-items: center;
+}
+.banner__left {
+  width: 480px;
+}
+.banner__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 11px;
+  font-weight: 500;
+}
+.banner__title span {
+  display: block;
+  font-size: 104px;
+  line-height: 100px;
+  font-weight: bold;
+}
+.banner__descr {
+  display: inline-block;
+  font-size: 22px;
+  line-height: 31px;
+  padding-bottom: 8px;
+  margin-bottom: 37px;
+  border-bottom: 0.5px solid var(--blue);
+  color: #2f3160;
+}
+.banner__btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.banner__right {
+  flex-grow: 1;
+  position: relative;
+}
+.new-badge {
+  position: absolute;
+  top: 11.5%;
+  left: 37%;
+}
+.new-badge img {
+  width: 38px;
+  height: auto;
+}
+.banner__right img {
+  width: 85%;
+  margin-left: auto;
+}

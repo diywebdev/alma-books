@@ -1,0 +1,59 @@
+.trechos {
+  position: relative;
+  padding-bottom: 0;
+  z-index: 2;
+}
+.trechos h2 {
+  margin-bottom: 58px;
+}
+.trechos-wrapper {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin: 0 20px 88px;
+  font-size: 12px;
+  line-height: 19px;
+  padding-bottom: 40px;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.15);
+}
+.trechos-book-image {
+  max-width: 270px;
+  margin: 25px auto;
+}
+.trechos-content {
+  display: flex;
+}
+.trechos-content > div {
+  width: 50%;
+  padding: 25px 0 0;
+}
+.trechos-content .left {
+  padding-right: 30px;
+}
+.trechos-content .left .divide {
+  display: none;
+}
+.trechos-content .right {
+  padding-left: 30px;
+}
+.trechos-content p {
+  margin-bottom: 0;
+  text-align: justify;
+}
+.trechos-quote {
+  background-color: #fff;
+  box-shadow: 0px 5px 20px 0px rgba(200, 217, 250, 1);
+  border-radius: 30px;
+  padding: 44px 80px;
+}
+.trechos-quote p {
+  margin-bottom: 30px;
+}
+.divide {
+  height: 5px;
+  background-image: url('../../../../../images/landing-pages/book-landing-page/icons/divider.png');
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10px 0;
+}

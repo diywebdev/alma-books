@@ -1,0 +1,16 @@
+.about {
+  padding-top: 150px;
+}
+.about__items {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 33px;
+}
+.about__item {
+  line-height: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../../../../fonts/calibri/calibri.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibri';
+  src: url('../../../../fonts/calibri/calibri_bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #333;
+  --blue: #2e3160;
+  --accent: #277da9;
+  --white: #fff;
+  --light: #fafbff;
+  --light2: #fbfcff;
+}
+
+body {
+  font-size: 18px;
+  line-height: 31px;
+  font-family: 'Calibri', sans-serif;
+  color: var(--text);
+  background-color: var(--light);
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--blue);
+  font-family: 'Cormorant SC', serif;
+  font-weight: 600;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 992px;
+  width: 100%;
+  margin: 0 auto;
+  background: var(--light2);
+  box-shadow: 0px -40px 40px 3px #c8d9fa;
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  max-width: 832px;
+  width: 100%;
+  padding: 0 28px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 33px 0;
+}
+
+section h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 48px;
+  margin-bottom: 28px;
+}
+section small {
+  color: var(--blue);
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+input {
+  border: none;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 10px 20px;
+  color: var(--blue);
+  outline: none;
+  border: 1px solid transparent;
+  transition: 0.25s;
+}
+
+input::placeholder {
+  color: #919191;
+}
+input:focus {
+  border-color: var(--accent);
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.btn {
+  width: 190px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--accent);
+  color: var(--white);
+  border-radius: 100px;
+  line-height: 1;
+  border: 0.5px solid var(--accent);
+  transition: all 0.25s;
+}
+.btn-o {
+  background-color: #fff;
+  color: var(--accent);
+}
+.btn-o:hover {
+  opacity: 1;
+  background-color: #f8f8f8;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.body-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+.body-bg.tablet,
+.body-bg.mobile {
+  display: none;
+}

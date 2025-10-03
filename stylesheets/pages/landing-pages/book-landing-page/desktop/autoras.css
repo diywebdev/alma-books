@@ -1,0 +1,38 @@
+.autoras {
+  background-color: #ebeff7;
+  padding-top: 150px;
+  margin-top: -115px;
+}
+.autoras h2 {
+  margin-bottom: 48px;
+}
+.autoras-item {
+  display: flex;
+  gap: 83px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 104px;
+  padding-right: 28px;
+  margin-bottom: 87px;
+}
+.autoras-item:nth-child(odd) {
+  flex-direction: row-reverse;
+  padding-left: 28px;
+  padding-right: 104px;
+}
+.autoras-item p {
+  max-width: 456px;
+  width: 100%;
+}
+.autoras-item .autor {
+  width: 316px;
+  text-align: center;
+  /* flex-grow: 1; */
+  flex-shrink: 0;
+}
+.autoras-item .autor h3 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 21px;
+}

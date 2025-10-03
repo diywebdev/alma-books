@@ -1,0 +1,57 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content-item__title {
+  position: relative;
+  min-height: 70px;
+  height: auto;
+  padding: 10px 0;
+  border-top: 0.5px solid var(--accent);
+  border-bottom: 0.5px solid var(--accent);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-image: url(../../../../../images/landing-pages/book-landing-page/icons/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: right 26px center;
+}
+.content-item__title h3 {
+  font-family: Calibri, sans-serif;
+  padding-left: 160px;
+  font-size: 18px;
+  line-height: 31px;
+  max-width: 616px;
+  text-transform: uppercase;
+}
+.content-item__title h3 span {
+  text-transform: capitalize;
+}
+.content-item__list {
+  position: relative;
+  padding: 10px 0 10px 190px;
+  margin-top: 20px;
+  border-top: 0.5px solid var(--accent);
+  border-bottom: 0.5px solid var(--accent);
+  font-size: 18px;
+  line-height: 31px;
+  display: none;
+}
+.close-content-list {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 26px;
+  top: 26px;
+  transform: rotate(180deg);
+  width: 30px;
+}
+.content-wave {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 50px;
+}

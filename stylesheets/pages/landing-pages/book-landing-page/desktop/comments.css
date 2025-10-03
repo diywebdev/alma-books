@@ -1,0 +1,98 @@
+.comments {
+  height: auto;
+  background-size: 690px;
+  background-position: right top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.comments-slider-wrapper {
+  position: relative;
+  margin: 124px 0 73px 84px;
+  max-width: 480px;
+  width: 100%;
+}
+.comments-slider {
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 5px 30px 0px rgba(200, 217, 250, 1);
+  font-size: 15px;
+  line-height: 25px;
+}
+.comment-slide {
+  padding: 30px 24px;
+}
+.comments-slider strong {
+  font-weight: 700;
+  display: block;
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+.comments-slider p {
+  margin-bottom: 0;
+}
+.comments-slider-wrapper::before,
+.comments-slider-wrapper::after {
+  content: '';
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  background-image: url(../../../../../images/landing-pages/book-landing-page/icons/quote.png);
+  background-size: cover;
+  z-index: 10;
+}
+.comments-slider-wrapper::before {
+  left: 33px;
+  top: -20px;
+}
+.comments-slider-wrapper::after {
+  right: 33px;
+  bottom: -20px;
+  transform: rotate(180deg);
+}
+.comments-slider-pagination {
+  top: 103% !important;
+}
+
+.comments-slider-pagination .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: #e5e5e5;
+}
+.comments-slider-pagination .swiper-pagination-bullet-active {
+  background-color: #b2bbc0;
+}
+
+.comments-btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  background-size: 13px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.comments-slider-prev {
+  left: -40px;
+  background-image: url('../../../../../images/landing-pages/book-landing-page/icons/arrow-left.svg');
+}
+.comments-slider-next {
+  right: -40px;
+  background-image: url('../../../../../images/landing-pages/book-landing-page/icons/arrow-right.svg');
+}
+.comment-decor {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 24px;
+  color: var(--blue);
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.comment-decor img {
+  width: 35px;
+  height: auto;
+}

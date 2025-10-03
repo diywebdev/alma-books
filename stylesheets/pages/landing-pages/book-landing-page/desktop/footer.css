@@ -1,0 +1,17 @@
+footer {
+  background-color: #ebe7e2;
+  padding: 60px 0;
+  color: #2b2955;
+}
+footer a {
+  color: #2b2955;
+}
+.footer-row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+footer .social {
+  margin-top: 17px;
+}
