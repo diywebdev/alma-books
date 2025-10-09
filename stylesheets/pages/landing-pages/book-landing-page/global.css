@@ -60,6 +60,10 @@ img {
   margin: 0;
 }
 
+.w-full {
+  width: 100% !important;
+}
+
 .wrapper {
   max-width: 992px;
   width: 100%;
@@ -150,6 +154,14 @@ input:focus {
 }
 .btn:hover {
   opacity: 0.9;
+}
+
+.btn.btn-sm {
+  font-size: 14px;
+}
+
+.font-bold {
+  font-weight: 700 !important;
 }
 
 .body-bg {

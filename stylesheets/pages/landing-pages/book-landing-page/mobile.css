@@ -45,13 +45,17 @@
     display: block;
     height: 455px;
   }
-  .banner__title {
-    font-size: 27px;
-    line-height: 32px;
-  }
   .banner__title span {
+    font-size: 27px;
+  }
+  .banner__title .banner__title--accent {
     font-size: 72px;
-    line-height: 87px;
+  }
+  .banner__title.title-md span {
+    font-size: 27px;
+  }
+  .banner__title.title-md .banner__title--accent {
+    font-size: 54px;
   }
   .banner__descr {
     font-size: 16px;

@@ -193,6 +193,12 @@
     width: 100%;
     margin-bottom: 80px;
   }
+  .banner__title.title-md {
+    font-size: 30px;
+  }
+  .banner__title--accent.title-md {
+    font-size: 54px;
+  }
   .banner__right img {
     max-width: 320px;
     width: 100%;

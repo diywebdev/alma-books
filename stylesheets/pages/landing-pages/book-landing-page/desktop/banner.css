@@ -6,20 +6,29 @@
   align-items: center;
 }
 .banner__left {
-  width: 480px;
+  width: 511px;
 }
 .banner__title {
   text-transform: uppercase;
   font-size: 40px;
-  line-height: 48px;
+  line-height: 1.2;
   margin-bottom: 11px;
   font-weight: 500;
 }
-.banner__title span {
+.banner__title--accent {
   display: block;
   font-size: 104px;
-  line-height: 100px;
   font-weight: bold;
+}
+.banner__title--accent.en-us-pearls-of-truths {
+  font-size: 76px;
+}
+
+.banner__title.title-md {
+  font-size: 39px;
+}
+.banner__title.title-md .banner__title--accent {
+  font-size: 76px;
 }
 .banner__descr {
   display: inline-block;
@@ -34,6 +43,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+.banner__btns--reading.en-us-pearls-of-truths {
+  padding-left: 19px;
+  padding-right: 19px;
+  text-align: center;
 }
 .banner__right {
   flex-grow: 1;
