@@ -14,11 +14,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 14px 0 108px;
+  padding: 0 28px;
   background-color: var(--white);
 }
 .header__logo img {
-  height: 56px;
+  height: 58px;
   width: auto;
 }
 .header__menu--list {
@@ -36,6 +36,68 @@ header {
   color: #2f3160;
   position: relative;
 }
+.header__menu--link.en-us-pearls-of-truths {
+  font-size: 15px;
+}
+
+/* LANGUAGE */
+.lang-item {
+  display: none;
+}
+.lang {
+  position: relative;
+  font-size: 16px;
+}
+
+.lang__value {
+  color: var(--white);
+  background-color: var(--accent);
+  border-radius: 16px;
+  padding-inline: 17px;
+  cursor: pointer;
+  transition: all .25s;
+}
+
+.lang__value:hover {
+  opacity: 0.9;
+}
+
+.lang__dropdown {
+  opacity: 0;
+  visibility: hidden;
+  /* translate: 0 -2px; */
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: var(--white);
+  box-shadow: 0px 6px 6px 0px #ebeff7;
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  transition: all .25s;
+  border-radius: 0 0 16px 16px;
+}
+
+.lang__dropdown-link {
+  color: var(--text);
+  transition: all .25s;
+  display: block;
+}
+
+.lang__dropdown-link:hover {
+  color: var(--accent);
+}
+
+.lang:hover .lang__value {
+  border-radius: 16px 16px 0 0;
+}
+
+.lang:hover .lang__dropdown {
+  translate: 0 0;
+  opacity: 1;
+  visibility: visible;
+}
+
 
 @media screen and (min-width: 992px) {
   .header__menu--btn {
