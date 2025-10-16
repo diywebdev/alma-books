@@ -1,4 +1,5 @@
 const ptPtLanguge = 'pt-pt';
+const esEsLanguge = 'es-es';
 const enUsLanguage = 'en-us';
 const incorrectEmailType = 'incorrect-email';
 
@@ -67,8 +68,11 @@ submitBtn.addEventListener('click', async (e) => {
         case enUsLanguage:
           return 'The email entered is incorrect';
         case ptPtLanguge:
-        default:
           return 'Foi introduzido um e-mail incorreto';
+        case esEsLanguge:
+          return 'Se ha introducido un email incorrecto'
+        default:
+          return '';
       }
     }
 
@@ -76,8 +80,11 @@ submitBtn.addEventListener('click', async (e) => {
       case enUsLanguage:
         return 'Something was wrong';
       case ptPtLanguge:
-      default:
         return 'Ocorreu um erro no servidor';
+      case esEsLanguge:
+        return 'Algo salió mal'
+      default:
+        return '';
     }
   };
 
