@@ -164,6 +164,10 @@ input:focus {
   font-weight: 700 !important;
 }
 
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
 .body-bg {
   position: absolute;
   left: 0;
