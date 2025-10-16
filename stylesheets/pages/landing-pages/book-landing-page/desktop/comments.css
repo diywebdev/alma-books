@@ -96,3 +96,16 @@
   width: 35px;
   height: auto;
 }
+.comment-book-cover {
+  margin-top: 50px;
+  margin-left: 600px;
+  position: absolute;
+  height: 502px;
+  width: auto;
+}
+
+@media screen and (max-width: 1010px) {
+  .comment-book-cover {
+    margin-left: 60%;
+  }
+}
