@@ -49,6 +49,11 @@
 .trechos-quote p {
   margin-bottom: 30px;
 }
+.trechos-quote a.en-us-pearls-of-truths {
+  padding-left: 19px;
+  padding-right: 19px;
+  text-align: center;
+}
 .divide {
   height: 5px;
   background-image: url('../../../../../images/landing-pages/book-landing-page/icons/divider.png');
