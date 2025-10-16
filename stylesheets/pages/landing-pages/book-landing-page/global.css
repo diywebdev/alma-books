@@ -180,3 +180,80 @@ input:focus {
 .body-bg.mobile {
   display: none;
 }
+
+.error-message {
+  color: rgba(208, 9, 9, 1);
+  font-family: 'Calibri';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.error-message.hidden {
+  display: none;
+}
+
+/***************************CUSTOM CHECKBOX**************************************/
+
+.privacy-policy-checkbox__container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.privacy-policy-checkbox__container a {
+  display: inline;
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.privacy-policy-checkbox__container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.privacy-policy-checkbox__checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 20%;
+}
+
+.privacy-policy-checkbox__checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.privacy-policy-checkbox__container
+  input:checked
+  ~ .privacy-policy-checkbox__checkmark:after {
+  display: block;
+}
+
+.privacy-policy-checkbox__container .privacy-policy-checkbox__checkmark:after {
+  left: 5px;
+  top: 5px;
+  width: 25px;
+  height: 25px;
+  background-image: url('./../../../../images/landing-pages/book-landing-page/check-mark-black.svg');
+  background-repeat: no-repeat;
+}

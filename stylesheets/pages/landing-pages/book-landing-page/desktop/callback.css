@@ -63,12 +63,39 @@
   border: none;
   border-radius: 15px;
   background: linear-gradient(90deg, #1e55a1 0%, #55c6d5 103.78%);
+  /* background-image: url("../../../../../images/landing-pages/book-landing-page/Vector2.svg"); */
   padding: 10px;
   cursor: pointer;
   transition: all 0.25s ease;
 }
+
 .form-btn:hover {
   box-shadow: 0px 10px 4px 0px rgba(200, 217, 250, 0.25);
+}
+
+.form-btn.disabled {
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #aebdcf 0%, #bddbdd 103.78%);
+  /* background-image: url("../../../../../images/landing-pages/book-landing-page/Vector2.svg"); */
+  padding: 10px;
+  cursor: not-allowed;
+  transition: all 0.25s ease;
+}
+
+.form-btn-check-mark {
+  position: relative;
+  display: inline-block;
+  right: 20px;
+  top: 3px;
+}
+
+.form-btn-check-mark.hidden {
+  display: none;
 }
 
 .callback-book-desktop {
@@ -76,7 +103,7 @@
   margin: 87px auto 45px;
   width: calc(100% - 130px);
   border-radius: 30px;
-  box-shadow: 0px 0px 40px 10px #DEE9FF;
+  box-shadow: 0px 0px 40px 10px #dee9ff;
 }
 
 @media screen and (min-width: 640px) {
